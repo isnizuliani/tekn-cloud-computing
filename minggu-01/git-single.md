@@ -15,3 +15,7 @@
 ![image](https://user-images.githubusercontent.com/127279123/224609089-eb81077a-265c-4462-8f81-d5ab338f7a5f.png)
 ![image](https://user-images.githubusercontent.com/127279123/224609127-bfab2aab-6bb1-4366-9895-28c20bfab237.png)
 ![image](https://user-images.githubusercontent.com/127279123/224609112-7225adcb-e079-4c17-8313-90e52e66041a.png)
+
+# Konfigurasi Git
+Bagian ini merupakan seri tulisan tentang Git. Silahkan ke README.md untuk memahami gambaran garis besar materi-materi yang dituliskan.
+Secara minimal, user harus memberitahu Git tentang username serta email yang digunakan setiap kali terjadi perubahan pada repo Git. Username serta email ini yang akan dimasukkan oleh Git ke catatan perubahan di repo. Di sistem operasi Linux atau sejanis (UNIX), konfigurasi ini nantinya akan disimpan di $HOME/.gitconfig. Untuk sistem operasi Windows, konfigurasi ini akan disimpan di C:\Document and Settings\NamaUser dengan nama file .gitconfig. Secara minimal, ada 2 hal yang perlu dikonfigurasi yaitu username dan email. Gunakan perintah berikut:
