@@ -33,3 +33,12 @@ Perintah berikutnya terkait dengan perubahan repo serta sinkronisasi antara GitH
 # Membuat Repo
 Untuk membuat repo, gunakan langkah-langkan berikut:
 
+# 1- klik tanda +pada bagian kanan atas setelah login. pilih new repository
+![image](https://user-images.githubusercontent.com/127279123/224618118-ff5b5fb8-a3df-4444-9587-292a84884b1a.png)
+
+# 2- Isikan nama, keterangann serta lisensi. jika dikehendaki, bisa membuat repo Privatr
+![image](https://user-images.githubusercontent.com/127279123/224618296-74477de7-f650-405d-a477-2f215e59f6cd.png)
+
+#3- klik create repository
+Setelah langkah-langkah tersebut, repo akan dibuat dan bisa diakses menggunakan pola https://github.com/username/reponame. Pada repo tersebut, hanya akan muncul 1 file, yaitu LICENSE. Jika memilih membuat README pada saat langkah ke 2, juga akan muncul README.md. Ada atau tidak ada README.md tidak mempunyai efek apapun pada langkah ini.
+
