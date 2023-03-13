@@ -1,1 +1,17 @@
-
+# 01-install git
+1. Setelah download Git, double click pada file yang di-download. Akan dimunculkan lisensi. Klik Next untuk lanjut.
+![image](https://user-images.githubusercontent.com/127279123/224608749-270cb386-2f46-4b68-b518-e89eb9bde477.png)
+![image](https://user-images.githubusercontent.com/127279123/224608843-65fa9176-329d-45f8-bc34-0a21220f6fdd.png)
+![image](https://user-images.githubusercontent.com/127279123/224608884-f5e1d34a-a7d9-4741-836d-4053d25a648d.png)
+![image](https://user-images.githubusercontent.com/127279123/224608901-29aded4a-09cc-4dd6-b5c9-3ec6590a034f.png)
+![image](https://user-images.githubusercontent.com/127279123/224608929-bb879f65-dc57-4fcd-a3be-fa0210d44d72.png)
+![image](https://user-images.githubusercontent.com/127279123/224608939-08fb3103-8d64-44f0-aec4-54e129312f93.png)
+![image](https://user-images.githubusercontent.com/127279123/224608948-71755641-ee8c-4d78-922b-918ee29fa173.png)
+![image](https://user-images.githubusercontent.com/127279123/224608954-01ac3fcf-7a86-4aff-a453-77931194d3fb.png)
+![image](https://user-images.githubusercontent.com/127279123/224609011-65aa8907-05a8-4bbe-8ef5-c15d3b71d681.png)
+![image](https://user-images.githubusercontent.com/127279123/224609022-c3d2b9cf-439a-4f15-a024-ba18ad615462.png)
+![image](https://user-images.githubusercontent.com/127279123/224609055-b9cecaef-a709-4da7-9ba9-ab101f8425d4.png)
+![image](https://user-images.githubusercontent.com/127279123/224609065-0acf79ef-2a25-48e0-9ffa-e059b6ae662d.png)
+![image](https://user-images.githubusercontent.com/127279123/224609089-eb81077a-265c-4462-8f81-d5ab338f7a5f.png)
+![image](https://user-images.githubusercontent.com/127279123/224609127-bfab2aab-6bb1-4366-9895-28c20bfab237.png)
+![image](https://user-images.githubusercontent.com/127279123/224609112-7225adcb-e079-4c17-8313-90e52e66041a.png)
