@@ -16,8 +16,20 @@
 ![image](https://user-images.githubusercontent.com/127279123/224609127-bfab2aab-6bb1-4366-9895-28c20bfab237.png)
 ![image](https://user-images.githubusercontent.com/127279123/224609112-7225adcb-e079-4c17-8313-90e52e66041a.png)
 
-# Konfigurasi Git
+# 02-Konfigurasi Git
 Bagian ini merupakan seri tulisan tentang Git. Silahkan ke README.md untuk memahami gambaran garis besar materi-materi yang dituliskan.
 Secara minimal, user harus memberitahu Git tentang username serta email yang digunakan setiap kali terjadi perubahan pada repo Git. Username serta email ini yang akan dimasukkan oleh Git ke catatan perubahan di repo. Di sistem operasi Linux atau sejanis (UNIX), konfigurasi ini nantinya akan disimpan di $HOME/.gitconfig. Untuk sistem operasi Windows, konfigurasi ini akan disimpan di C:\Document and Settings\NamaUser dengan nama file .gitconfig. Secara minimal, ada 2 hal yang perlu dikonfigurasi yaitu username dan email. Gunakan perintah berikut:
 ![image](https://user-images.githubusercontent.com/127279123/224610334-121b0ff7-31e8-4820-afb7-56d2d75d6eab.png)
+
+# 03- Mengelola repo sendiri
+Bagian ini merupakan seri tulisan tentang Git. Silahkan ke README.md untuk memahami gambaran garis besar materi-materi yang dituliskan.
+
+# Langkah-langkah
+Setiap orang yang telah mempunyai account di GitHub bisa membuat repo dengan. Secara umum, langkah-langkahnya adalah sebagai berikut:
+
+Buat repo kosong di GitHub, bisa public maupun private.
+Cloe repo kosong tersebut di komputer lokal
+Perintah berikutnya terkait dengan perubahan repo serta sinkronisasi antara GitHub dengan lokal.
+# Membuat Repo
+Untuk membuat repo, gunakan langkah-langkan berikut:
 
