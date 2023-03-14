@@ -42,15 +42,15 @@ Untuk membuat repo, gunakan langkah-langkan berikut:
 3- klik create repository
 Setelah langkah-langkah tersebut, repo akan dibuat dan bisa diakses menggunakan pola https://github.com/username/reponame. Pada repo tersebut, hanya akan muncul 1 file, yaitu LICENSE. Jika memilih membuat README pada saat langkah ke 2, juga akan muncul README.md. Ada atau tidak ada README.md tidak mempunyai efek apapun pada langkah ini.
 
-#Clone Repo
+# Clone Repo
 Proses clone adalah proses untuk menduplikasikan remote repo di GitHub ke komputer lokal. Untuk melakukan proses clone, gunakan perintah berikut:
 ![image](https://user-images.githubusercontent.com/127279123/224911982-508bc3d8-0d89-4e8e-bf76-7218c326bc51.png)
 Setelah perintah ini, di direktori awesome-project akan disimpan isi repo yang sama dengan di GitHub. Perbedaannya, di komputer lokal terdapat direktori .git yang digunakan secara internal oleh Git.
 
-#Mengelola Repo
+# Mengelola Repo
 Setelah clone ke komputer lokal, semua manipulasi konten dilakukan di komputer lokal dan hasilnya akan di-push ke remote repo di GitHub. Dengan demikian, jangan berganti-ganti remote lokal, sekali dibuat disitu, tetap berada disitu. Jika kehilangan repo lokal, clone ulang ke direktori yang bersih (kosong) setelah itu baru lakukan pengelolaan repo. Beberapa hal yang biasanya dilakukan akan diuraikan berikut ini.
 
-#Mengubah isi - Push tanppa branching dan merging
+# Mengubah isi - Push tanppa branching dan merging
 perubahan isi bisa terjadi karena suatu atau kombinasi beberapa hal berikut
 1. file di hapus
 2. file diedit
@@ -59,8 +59,51 @@ perubahan isi bisa terjadi karena suatu atau kombinasi beberapa hal berikut
 
 untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setlah itu push ke repo
 ![image](https://user-images.githubusercontent.com/127279123/224920775-e2b3e963-488d-419f-b09f-6bfed71e76d7.png)
+Cara ini lebih mudah tetapi mempunyai resiko jika terjadi kesalahan dalam edit. Cara yang lebih aman tetapi memerlukan langkah yang lebih panjang adalah branching and merging
 
+# Mengubah isi dengan branching and merging
+Mengubah Isi dengan Branching and Merging
+Dengan menggunakan cara ini, setiap kali akan melakukan perubaham, perubahan itu dilakukan di komputer lokal dengan membuat suatu cabang yang nantinya digunakan untuk menampung perubahan-perubahan tersebut. Setelah itu, cabang itu yang akan dikirim ke repo GitHub untuk dimintai review kemudian digabungkan (merge) ke master. Secara umum, repo yang dibuat biasanya sudah mempunyai satu branch yang disebut dengan master. Cara ini lebih aman, terstruktur, terkendali, dan mempunyai history yang lebih baik. Jika perubahan yang kita buat sudah terlalu kacau dan kita menyesal, maka ada cara untuk "membersihkan" repo lokal kita. Secara umum, langkahnya adalah sebagai berikut:
 
+1. Buat branch untuk menampung perubahan-perubahan
+2. Lakukan perubahan-perubahan
+3. Add dan commit perubahan-perubahan tersebut ke branch
+4. Kembali ke repo master
+5. Buat pull request di GitHub
+6. Merge pull request di GitHub
+7. Merge branch untuk menampung perubahan-perubahan tersebut ke master.
+8. Selesai.
+9. 
 ![image](https://user-images.githubusercontent.com/127279123/224922362-6a91b820-6073-4df5-809c-235cc1547ef4.png)
+
+setelah itu, kirim pill request (PR):
+![image](https://user-images.githubusercontent.com/127279123/224925877-d51f1eda-a2c5-4b0f-9b3d-f8084d824b2e.png)
+
+![image](https://user-images.githubusercontent.com/127279123/224925486-2701e411-c80a-45f5-b102-c6f682dc0151.png)
+
+setelah membuat PR, PR tersebut bisa di-merge:
+![image](https://user-images.githubusercontent.com/127279123/224925693-e97fb28e-6abd-4ccd-af70-64e616b7b6f9.png)
+Setelah itu, Confirm Merge, branch yang kita kirimkan tadi sudah dimasukkan ke branch master. Setelah itu, merge di komputer lokal:
+![image](https://user-images.githubusercontent.com/127279123/224926041-a6687193-96ed-454b-8743-549dd36b0358.png)
+
+# Sinkronisasi
+Suatu saat, bisa saja terjadi kita menggunakan komputer lain dan mengedit repo melalui repo lokal di komputer lain, setelah itu pindah ke kamputer lain lagi. Saat itu, kita perlu melakukan sinkronisasi ke kemputer lokal. Perintah untuk sinkronisasi adalah:
+![image](https://user-images.githubusercontent.com/127279123/224926296-98b54b45-d381-4106-9ca7-68fc726869b9.png)
+
+
+# Membatalkan perubahan 
+Praktik yang baik adalah membuat branch pada saat kita akan melakukan perubahan-perubahan. Jika perubahan-perubahan yang kita lakukan sudah sedemikian kacaunya, maka kita bisa membuat supaya perubahan-perubahan yang kacau tersebut hilang dan kembali ke kondisi bersih seperti semula.
+![image](https://user-images.githubusercontent.com/127279123/224927614-9abe1871-ce00-48e2-bd89-b1f673a6bc4f.png)
+
+# Undo commit yang terakhir
+Suatu saat, mungkin kita sudah terlanjur mem-push perubahan ke repo GitHub, setelah itu kita baru menyadari bahwa perubahan tersebut salah. Untuk itu, kita bisa melakukan git revert.
+![image](https://user-images.githubusercontent.com/127279123/224929431-17b1fe8e-012b-4b84-bc19-ce3ab2e3d94d.png)
+![image](https://user-images.githubusercontent.com/127279123/224929612-e1cec52e-537d-4773-94cb-d93bb19d9b9a.png)
+
+Contoh di atas adalah contoh untuk mengubah README.md dengan beberapa commit. Setelh itu, kita akan mengembalikan ke posisi terakhir sebelum commit terakhir.
+
+
+
+
 
 
