@@ -58,5 +58,6 @@ perubahan isi bisa terjadi karena suatu atau kombinasi beberapa hal berikut
 4. menghapus direktori
 
 untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setlah itu push ke repo
+![image](https://user-images.githubusercontent.com/127279123/224920775-e2b3e963-488d-419f-b09f-6bfed71e76d7.png)
 
 
