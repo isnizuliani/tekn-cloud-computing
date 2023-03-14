@@ -61,3 +61,6 @@ untuk kasus-kasus tersebut, lakukan perubahan di komputer lokal, setlah itu push
 ![image](https://user-images.githubusercontent.com/127279123/224920775-e2b3e963-488d-419f-b09f-6bfed71e76d7.png)
 
 
+![image](https://user-images.githubusercontent.com/127279123/224922362-6a91b820-6073-4df5-809c-235cc1547ef4.png)
+
+
