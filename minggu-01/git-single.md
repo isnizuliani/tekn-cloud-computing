@@ -124,11 +124,42 @@ edit file tersebut, setalah itu simpan
 
 Setelah itu, lanjutkan proses revert. Saat git revert --continue isikan pesan revert.
 ![image](https://user-images.githubusercontent.com/127279123/225105413-96d6e1af-9cb5-443a-97d1-aff1613c946c.png)
-
+ 
 # Mengelola repo sendiri di organisasi
 Bagian ini merupakan seri tulisan tentang Git. Silahkan ke README.md untuk memahami gambaran garis besar materi-materi yang dituliskan.
 
 Repo yang dibuat bisa diletakkan pada account kita maupun berada pada suatu organisasi. Organisasi bisa kita buat sendiri maupun kita dimasukkan menjadi anggota organisasi. Pada dasarnya, bagian ini sama dengan bagian sebelumnya, hanya saja, pada saat membuat repo Owner dari repo adalah organisasi seperti berikut ini:
+![image](https://user-images.githubusercontent.com/127279123/225107592-87cd45d1-40ba-46ca-9783-6ef041d515d0.png)
+
+ # Git untuk kolaborasi
+ Bagian ini merupakan seri tulisan tentang Git. Silahkan ke README.md untuk memahami gambaran garis besar materi-materi yang dituliskan.
+ 
+ # Pendahuluan
+ Selain untuk mengelola aset digital milik diri sendiri, kita bisa menggunakan Git untuk berkolaborasi dalam suatu repo di GitHub yang bisa diakses bersama. Dalam kasus seperti ini, berarti ada 2 peran:
+1. Pemilik repo, sering disebut sebagai upstream author.
+2. Kontributor, yaitu orang-orang yang akan berkontribusi memberikan konten.
+
+Untuk situasi seperti ini, diasumsikan:
+1. Upstream author telah membuat repo git di GitHub
+2. Kontributor telah mengetahui adanya repo tersebut, tertarik untuk berkontribusi, sudah mengetahui apa yang akan diberikan ke proyek (repo GitHub upstream author) tersebut.
+3. Pembahasan selanjutnya adalah tentang bagaimana kontributor bisa mengirimkan kontribusi ke repo GitHub milik upstream author.
+
+Dalam pembahasan ini:
+1. Upstream author adalah oldstager.
+2. Kontributor adalah bpdp
+3. Repo dari upstream author adalah playground yang bisa diakses di https://github.com/oldstager/playground
+
+# Fork
+Fork adalah membuat clone dari suatu repo di GitHub milik upstream author, diletakkan ke milik kontributor. Fork hanya dilakukan sekali saja. Pada dasarnya, proses untuk fork ini meliputi:
+
+1. Fork repo di web GitHub.
+2. Clone fork tersebut di komputer lokal.
+Kontributor harus mem-fork repo upstream author sehingga di repo kontributor muncul repo tersebut. Proses forking ini dijelaskan dengan langkah-langkah berikut:
+
+1. Login ke GitHub
+2. Akses repo yang akan di-fork: https://github.com/oldstager/playground
+3. Pada sisi kanan atas, klik Fork:
+
 
 
 
