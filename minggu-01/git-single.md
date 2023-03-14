@@ -125,6 +125,11 @@ edit file tersebut, setalah itu simpan
 Setelah itu, lanjutkan proses revert. Saat git revert --continue isikan pesan revert.
 ![image](https://user-images.githubusercontent.com/127279123/225105413-96d6e1af-9cb5-443a-97d1-aff1613c946c.png)
 
+# Mengelola repo sendiri di organisasi
+Bagian ini merupakan seri tulisan tentang Git. Silahkan ke README.md untuk memahami gambaran garis besar materi-materi yang dituliskan.
+
+Repo yang dibuat bisa diletakkan pada account kita maupun berada pada suatu organisasi. Organisasi bisa kita buat sendiri maupun kita dimasukkan menjadi anggota organisasi. Pada dasarnya, bagian ini sama dengan bagian sebelumnya, hanya saja, pada saat membuat repo Owner dari repo adalah organisasi seperti berikut ini:
+
 
 
 
