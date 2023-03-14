@@ -102,6 +102,32 @@ Suatu saat, mungkin kita sudah terlanjur mem-push perubahan ke repo GitHub, sete
 
 Contoh di atas adalah contoh untuk mengubah README.md dengan beberapa commit. Setelh itu, kita akan mengembalikan ke posisi terakhir sebelum commit terakhir.
 
+![image](https://user-images.githubusercontent.com/127279123/225103975-3533fafd-ab37-433f-8531-4f54218ba234.png)
+Perintah di atas akan membuka editor. Pada editor tersebut kita bisa mengetikkan pesan revert ( = pesan commit untuk pembatalan). Setelah selesai, simpan:
+
+[master f800ced Revert "Add: contents - 2"
+ 1 file changed, 1 deletion(-)
+$
+
+selanjutnya tinggal di-push ke repo GitHub
+![image](https://user-images.githubusercontent.com/127279123/225104284-2f83f470-12ef-4955-97f6-560ba8ff2d76.png)
+ jika commit sudah dilakukan, tetapi belum di-push ke repo GitHub (masih berada di lokal), cara membatalkannya:
+ ![image](https://user-images.githubusercontent.com/127279123/225104561-d8ab290e-1ce8-4741-b1b3-78db903014ba.png)
+
+Untuk kembali ke perubahan pada saat yang sudah lama, yang perlu dilakukan adalah melakukan git revert <posisi> kemudian mengedit secara manual kemudian push ke repo.
+![image](https://user-images.githubusercontent.com/127279123/225105058-6528057e-9e0c-49d4-8bf6-9006c52650ae.png)
+
+Setelah itu, jika dilihat pada file, akan muncul tambahan untuk memudahkan meng-edit. File ini harus di-resolve terlebih dahulu, setelah itu baru di add dan commit:
+![image](https://user-images.githubusercontent.com/127279123/225105166-4cb6e503-ac61-4bc1-af38-888be7d7e339.png)
+edit file tersebut, setalah itu simpan
+
+Setelah itu, lanjutkan proses revert. Saat git revert --continue isikan pesan revert.
+![image](https://user-images.githubusercontent.com/127279123/225105413-96d6e1af-9cb5-443a-97d1-aff1613c946c.png)
+
+
+
+
+
 
 
 
