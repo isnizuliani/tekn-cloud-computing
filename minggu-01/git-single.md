@@ -42,3 +42,6 @@ Untuk membuat repo, gunakan langkah-langkan berikut:
 3- klik create repository
 Setelah langkah-langkah tersebut, repo akan dibuat dan bisa diakses menggunakan pola https://github.com/username/reponame. Pada repo tersebut, hanya akan muncul 1 file, yaitu LICENSE. Jika memilih membuat README pada saat langkah ke 2, juga akan muncul README.md. Ada atau tidak ada README.md tidak mempunyai efek apapun pada langkah ini.
 
+#Clone Repo
+Proses clone adalah proses untuk menduplikasikan remote repo di GitHub ke komputer lokal. Untuk melakukan proses clone, gunakan perintah berikut:
+![image](https://user-images.githubusercontent.com/127279123/224911982-508bc3d8-0d89-4e8e-bf76-7218c326bc51.png)
