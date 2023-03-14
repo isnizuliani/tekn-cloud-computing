@@ -120,6 +120,7 @@ Untuk kembali ke perubahan pada saat yang sudah lama, yang perlu dilakukan adala
 Setelah itu, jika dilihat pada file, akan muncul tambahan untuk memudahkan meng-edit. File ini harus di-resolve terlebih dahulu, setelah itu baru di add dan commit:
 ![image](https://user-images.githubusercontent.com/127279123/225105166-4cb6e503-ac61-4bc1-af38-888be7d7e339.png)
 edit file tersebut, setalah itu simpan
+![image](https://user-images.githubusercontent.com/127279123/225106528-f17cd935-b7c2-4149-a7ef-5b0b60ce32ee.png)
 
 Setelah itu, lanjutkan proses revert. Saat git revert --continue isikan pesan revert.
 ![image](https://user-images.githubusercontent.com/127279123/225105413-96d6e1af-9cb5-443a-97d1-aff1613c946c.png)
