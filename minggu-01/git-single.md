@@ -163,9 +163,10 @@ Kontributor harus mem-fork repo upstream author sehingga di repo kontributor mun
 4. Pilih akan ditempatjan di account mana.
  
 5. Setelah proses, repo dari upstream aouthor sudah berada di account Git Hub
+ ![image](https://user-images.githubusercontent.com/127279123/225181193-7c3378b0-49c5-4656-9f22-40336eebe00a.png)
  
 Setelah proses tersebut, clone di komputer lokal
- 
+
 Setelah itu, konfigurasikan repo lokal kontributor. Pada kondisi saat ini, di komputer lokal sudah terdapat repo playground-1 yang berada pada direktori dengan nama yang sama. Untuk keperluan berkontribusi, ada 2 nama repo yang harus diatur:
 
 1. origin: menunjuk ke repo milik kontributor di GitHub, hasil dari fork.
