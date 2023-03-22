@@ -63,6 +63,7 @@ Ada dua varietas utama SaaS:
    
 ## Sistem antrian untuk aplikasi Saas
   Sistem antrian pesan adalah protokol komunikasi asinkron , memungkinkan pengirim dan penerima pesan tidak berinteraksi pada waktu yang sama. Juga dikenal sebagai teknologi Message Queuing (MSMQ) yang memungkinkan aplikasi web berjalan pada waktu yang berbeda dan untuk berkomunikasi dengan berbagai integrasi/API/layanan pihak ketiga dan layanan lainnya secara asinkron.
+ 
 ![image](https://user-images.githubusercontent.com/127279123/226881294-cf0ff31e-3976-43cd-bdd8-25a2418bc5e1.png)
 
 
