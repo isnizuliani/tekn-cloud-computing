@@ -23,7 +23,7 @@ Ada dua varietas utama SaaS:
 - Produk yang berfokus pada kategori perangkat lunak (pemasaran, penjualan, alat pengembang, SDM) tetapi agnostik industri.
 
 ## Manfaat SAAS:
-1Model pengiriman sesuai permintaan mengubah beberapa hal ini. Aplikasi SaaS tidak memerlukan penyebaran infrastruktur besar di lokasi klien. Integrasi dapat direncanakan dan dilaksanakan dengan upaya minimal, menciptakan salah satu interval waktu tersingkat yang memungkinkan untuk investasi TI yang besar. Ini juga memungkinkan sejumlah vendor SaaS untuk menawarkan "test drive" perangkat lunak mereka yang bebas risiko (dan seringkali gratis ) untuk jangka waktu terbatas, seperti 30 hari.
+  Model pengiriman sesuai permintaan mengubah beberapa hal ini. Aplikasi SaaS tidak memerlukan penyebaran infrastruktur besar di lokasi klien. Integrasi dapat direncanakan dan dilaksanakan dengan upaya minimal, menciptakan salah satu interval waktu tersingkat yang memungkinkan untuk investasi TI yang besar. Ini juga memungkinkan sejumlah vendor SaaS untuk menawarkan "test drive" perangkat lunak mereka yang bebas risiko (dan seringkali gratis ) untuk jangka waktu terbatas, seperti 30 hari.
 
 # Materi 3
 ## Platform Arsitektur Saas
@@ -33,4 +33,29 @@ Ada dua varietas utama SaaS:
 - Platform sebagai Layanan
 - Pembelajaran Mesin sebagai Layanan
 
-## mengapa menggunakan arsitektur SaaS
+## Mengapa menggunakan arsitektur SaaS
+  Perangkat lunak telah didistribusikan ke pelanggan di berbagai saluran selama beberapa dekade terakhir. Sudut pandang sebagai layanan:
+  - Konsumen: Aplikasi SaaS adalah salah satu cara termudah dan paling andal untuk menggunakan layanan atau produk digital
+  - Bisnis:  Produk perangkat lunak yang disampaikan "sebagai layanan" memungkinkan bisnis untuk menawarkan produk mereka dalam skala besar
+
+## Fitur utama dan Manfaat Platform Arsitektur SaaS
+- Kesederhanan aplikasi arsitektur SaaS
+- Nilai ekonomi
+- Keamanan
+- Kesesuaian
+
+## Kerugian Plafform SaaS
+![image](https://user-images.githubusercontent.com/127279123/226877439-f5886856-2968-40d6-ac3b-ff837bb6414f.png)
+
+## Kurangnya kontrol dalam platform arsitektur SaaS
+- Ekosistem terbatas
+- Pertunjukan
+- Kekhawatiran Data
+
+## Komponen utatam SaaS
+- Keamanan
+- Pribadi
+- kustomisasi dan konfigurasi
+
+
+
