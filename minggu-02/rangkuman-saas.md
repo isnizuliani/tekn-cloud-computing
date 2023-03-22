@@ -52,10 +52,19 @@ Ada dua varietas utama SaaS:
 - Pertunjukan
 - Kekhawatiran Data
 
-## Komponen utatam SaaS
+## Komponen utama SaaS
 - Keamanan
 - Pribadi
 - kustomisasi dan konfigurasi
+
+# Materi 4
+   Untuk memulai aplikasi SaaS menggunakan bahasa Python Python adalah bahasa pemrograman yang banyak digunakan, dirancang untuk menekankan pada keterbacaan kodenya. Menggunakan database berorientasi dokumen karena DOB menawarkan pengalaman yang lebih kaya dengan teknik pemrograman modern. 
+   MongoDB digunakan sebagai database untuk aplikasi anda, karena database berorientasi dokumen yang memberikan kinerja tinggi, ketersediaan tinggi dan skalabilitas yang mudah.
+   
+## Sistem antrian untuk aplikasi Saas
+  Sistem antrian pesan adalah protokol komunikasi asinkron , memungkinkan pengirim dan penerima pesan tidak berinteraksi pada waktu yang sama. Juga dikenal sebagai teknologi Message Queuing (MSMQ) yang memungkinkan aplikasi web berjalan pada waktu yang berbeda dan untuk berkomunikasi dengan berbagai integrasi/API/layanan pihak ketiga dan layanan lainnya secara asinkron.
+![image](https://user-images.githubusercontent.com/127279123/226881294-cf0ff31e-3976-43cd-bdd8-25a2418bc5e1.png)
+
 
 
 
