@@ -1,4 +1,4 @@
-# Cara install ofbiz
+#Cara install ofbiz
 - Download lik berikut untuk menuju url https://www.apache.org/dyn/closer.lua/ofbiz/apache-ofbiz-18.12.07.zip
 - kemudian Extract file zip
 - kemudian buka cmd, arahkan ke folder apche anda berada. lalu keetikan gradlew cleanAll loadAll
