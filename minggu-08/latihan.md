@@ -25,7 +25,6 @@ login docker
 
 Dari direktori proyek Anda, mulai aplikasi Anda dengan menjalankan .docker compose up
 
-![image](https://github.com/isnizuliani/tekn-cloud-computing/assets/127279123/b82c36a5-9047-47b8-8d44-8626cd1c5316)
 
 
 Masukkan http://localhost:8000/ di browser untuk melihat aplikasi berjalan.
