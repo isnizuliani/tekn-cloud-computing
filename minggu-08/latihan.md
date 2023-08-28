@@ -17,11 +17,6 @@ Di direktori proyek Anda, buat file bernama dan tempelkan kode berikut di:Docker
 
 
 Dari direktori proyek Anda, mulai aplikasi Anda dengan menjalankan .docker compose up
-
-
-![image](https://github.com/isnizuliani/tekn-cloud-computing/assets/127279123/abebae1d-91df-4c95-8566-cf84e0b41f8f)
-
-
 login docker
 
 
