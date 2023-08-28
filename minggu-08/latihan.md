@@ -1,4 +1,4 @@
-Buat direktori untuk proyek: mkdir composetest
+Buat direktori untuk proyek: mkdir composetes
 
 Buat file yang dipanggil di direktori proyek Anda dan tempelkan kode berikut di:app.py
 
