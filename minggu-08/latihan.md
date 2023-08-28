@@ -56,7 +56,9 @@ Edit di direktori proyek Anda untuk menambahkan pemasangan pengikatan untuk laya
 
 Dari direktori project, ketik untuk mem-build aplikasi dengan file Compose yang diperbarui, lalu jalankan.docker compose up
 
-![image](https://github.com/isnizuliani/tekn-cloud-computing/assets/127279123/75ff9680-1fd2-47bc-b7e8-beaa24cef0b7)
+
+![image](https://github.com/isnizuliani/tekn-cloud-computing/assets/127279123/4c2faece-f2e4-46da-8b21-a006408624a2)
+
 
 Ubah salam dan simpan. Misalnya, ubah pesan menjadi :app.pyHello World!Hello from Docker!
 
