@@ -1,4 +1,4 @@
-#Cara Create Data  Dengan Dockerinstaa
+##Cara Create Data  Dengan Docker
 1. Install Docker
 2. tarik gambar Docker PostgreSQL atau denga perintah **docker pull postgres**
 ![image](https://github.com/isnizuliani/tekn-cloud-computing/assets/127279123/acb50510-cd94-4dd9-9119-ff78c29d0ee4)
